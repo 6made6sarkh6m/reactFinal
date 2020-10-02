@@ -18,17 +18,10 @@ const App =()=>{
       <h1>Test task</h1>
       <div className="row">
         <div className="five columns">
-          {edit? (
-            <div>
-              <h2>Update contact</h2>
-                
-            </div>
-          ):(
             <div>
             <h2>Add contact</h2>
             <AddContact addContact={addContact}/>
             </div>
-          )}
          
         </div>
         <div className="seven columns">

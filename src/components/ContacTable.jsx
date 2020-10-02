@@ -39,7 +39,7 @@ const ContacTable =(props)=>{
                     })
                 ):(
                     <tr>
-                        <td colSpan={5}>No contacts</td>
+                        <td colSpan={6}>No contacts</td>
                     </tr>
                 )}
             </tbody>
