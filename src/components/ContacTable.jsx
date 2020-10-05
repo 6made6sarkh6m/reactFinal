@@ -32,7 +32,7 @@ const ContacTable =(props)=>{
                                 </td>
                                 <td>
                                     <button onClick={() =>{props.deleteContact(id)}}>delete</button>
-                                    <button>edit</button>
+                                    <button onClick={()=>{props.editContact(id, contact)}}>edit</button>
                                 </td>
                             </tr>
                         )
